@@ -32,7 +32,7 @@
 
 Linux Privilege Escalation through SUDO abuse.
 
-If you like the tool and for my personal motivation so as to develop other tools please a +1 star * 
+* **If you like the tool and for my personal motivation so as to develop other tools please a +1 star** 
 
 The tool can be used by pentesters, system admins, CTF players, students, System Auditors and trolls :).
 
@@ -272,11 +272,14 @@ The playlist url: https://www.youtube.com/watch?v=Q8iO9mYrfv8&list=PLQPKPAuCA40F
 Coming functionality and improvement
 =============
 * **Credentials harvesting - done**
-* **Improve the way information on potential vuln and exploit are presented - partially done**
+* **Improve the way information on potential vuln and exploit are presented - done**
 * **Adding scenario + detection exploit for CVE-2019-14287 - done**
-* **Ability to extract data and do analysis offline - on your machine - done**
+* **Ability to extract data and do analysis offline - on your machine - partially done**
 * **Sudo token abuse**
 * **Dealing with aliases**
+* **Extracting sudo rules remotely via SSH (fully automated)**
+* **Blind SUDO - This is a new sub-project (whenever you need a password to run sudo -l but you don't have it)**
+* **Audit mode (need to have read access to /etc/sudoers)**
 
 * **If you want me to add any other one... please submit an issue**
 
@@ -284,7 +287,7 @@ Coming functionality and improvement
 =============
 Credits
 =============
-The script was developed from myself with the help of online resources found on github and in the wild. Credits also to the authors of the exploits related to CVEs.
+The script was developed by myself with the help of online resources found on github and in the wild. Credits also to the authors of the exploits related to CVEs.
 The authors information and links can be found in the exploit and in the notes provided when running the tool. Special kudos to Vincent Puydoyeux, who gave me the idea to develop this tool and Koutto, for helping me with the docker thing and for improving the tool.
 
 
